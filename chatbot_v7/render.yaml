@@ -1,0 +1,13 @@
+
+
+services:
+  - type: web
+    name: chatbot-nlp
+    runtime: docker
+    plan: free
+    healthCheckPath: /health
+
+    envVars:
+      - key: PORT
+        value: "8000"
+      

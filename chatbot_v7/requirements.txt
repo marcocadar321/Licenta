@@ -1,0 +1,14 @@
+#  Server 
+uvicorn[standard]>=0.29
+pydantic>=2.7
+python-multipart>=0.0.9
+
+# NLP 
+numpy>=1.26
+sentence-transformers>=3.0
+torch>=2.3 --index-url https://download.pytorch.org/whl/cpu
+transformers>=4.40
+accelerate>=0.30
+
+# Persistenta (optional) 
+# pymongo[srv]>=4.6
