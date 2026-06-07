@@ -4,3 +4,4 @@ __pycache__/
 .vscode/
 .idea/
 models/
+chatbot_v7/data/users.json
