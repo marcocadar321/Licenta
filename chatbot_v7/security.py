@@ -20,11 +20,11 @@ from typing import Optional
 
 import config
 
-# ── State în memorie pentru rate limiting ─────────────────────────────────────
+
 _rate_store: dict[str, list[float]] = defaultdict(list)
 
 
-# ── Parole ────────────────────────────────────────────────────────────────────
+
 
 def hash_password(password: str) -> str:
     salt = os.urandom(16).hex()
@@ -41,7 +41,7 @@ def verify_password(password: str, stored_hash: str) -> bool:
         return False
 
 
-# ── JWT simplu (HMAC-SHA256 + base64url) ──────────────────────────────────────
+
 
 def create_token(username: str) -> str:
     expires = int(time.time()) + config.TOKEN_EXPIRE_SECONDS
@@ -66,7 +66,7 @@ def decode_token(token: str) -> Optional[str]:
         return None
 
 
-# ── Utilizatori ──────────────────────────────────────────────────────────────
+
 
 def _load_users() -> dict:
     config.USERS_FILE.parent.mkdir(parents=True, exist_ok=True)
