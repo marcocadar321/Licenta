@@ -6,14 +6,42 @@
         "salut", "buna", "hello", "hey", "buna ziua", "buna dimineata",
         "buna seara", "ce mai faci", "ce faci", "ma bucur sa te vad",
         "alo", "hei", "hola", "hi", "salutare", "o zi buna", "neata",
-        "buna tuturor", "salutari", "ce mai e nou", "cum merge"
+        "buna tuturor", "salutari", "ce mai e nou", "cum merge",
+        "ce se mai aude", "ce mai e pe acolo", "servus", "aloha",
+        "yo", "ce mai faci tu", "esti acolo", "ma auzi", "esti disponibil",
+        "cineva acolo", "hai sa vorbim", "imi raspunzi", "poti sa ma ajuti",
+        "buna dimineata frumoasa", "o seara buna", "ce mai faci azi",
+        "cum esti", "totul bine", "esti ok", "cum o duci", "bine ai venit",
+        "buna ziua draga", "ma bucur ca esti aici", "hai la treaba",
+        "ce noutati", "ai timp", "esti liber", "poti vorbi"
       ],
       "responses": [
         "Salut! Cum te pot ajuta astazi?",
         "Buna! Ce pot face pentru tine?",
         "Hey! Cu ce te pot ajuta?",
         "Salutare! Sunt gata sa te ajut.",
-        "Buna ziua! Cu ce informatii te pot sprijini?"
+        "Buna ziua! Cu ce informatii te pot sprijini?",
+        "Alo! Sunt aici, spune-mi ce ai nevoie.",
+        "Servus! Cu ce te pot ajuta azi?"
+      ]
+    },
+    {
+      "tag": "stare_bot",
+      "patterns": [
+        "cum esti", "ce mai faci", "esti bine", "cum te simti",
+        "totul ok cu tine", "cum o duci", "esti obosit", "esti fericit",
+        "esti trist", "ai o zi buna", "cum iti merge", "esti in regula",
+        "ce dispozitie ai", "esti vesel", "te simti bine azi",
+        "cum e ziua ta", "ai emotii", "simti ceva", "esti multumit",
+        "esti bucuros", "esti suparat", "ai probleme", "te doare ceva",
+        "esti sanatos", "esti activ", "functionezi bine", "rulezi bine"
+      ],
+      "responses": [
+        "Sunt excelent, multumesc ca intrebi! Mereu gata sa conversez si sa ajut.",
+        "Ca un chatbot care tocmai a primit o intrebare, nu ma pot plange! Ce pot face pentru tine?",
+        "Functionez la parametri optimi! Embeddings-urile mele sunt incarcate si sunt gata de actiune.",
+        "Sunt in forma maxima! Nu simt oboseala - avantajul de a fi un program. Tu cum esti?",
+        "Bine, multumesc! Vectorii mei semantici sunt calibrati si astept sa te ajut cu ceva."
       ]
     },
     {
@@ -22,14 +50,23 @@
         "pa", "la revedere", "bye", "ne vedem", "pe curand",
         "gata", "am terminat", "inchide", "goodbye", "ciao",
         "noapte buna", "o zi buna", "ma duc", "pana data viitoare",
-        "ne mai auzim", "cu bine", "iesire"
+        "ne mai auzim", "cu bine", "iesire",
+        "plec", "ma retrag", "o sa plec acum", "inchid",
+        "pana maine", "pana saptamana viitoare", "ramai cu bine",
+        "te las", "ma opresc", "am terminat treaba", "gata pe azi",
+        "bye bye", "cheerio", "adios", "auf wiedersehen", "au revoir",
+        "trebuie sa plec", "pana data viitoare", "am altceva de facut",
+        "te salut", "mai vorbim", "pe maine", "am terminat sesiunea"
       ],
       "responses": [
         "La revedere! O zi buna!",
         "Pa! Ma bucur ca am putut ajuta.",
         "Pe curand! Revin oricand ai nevoie.",
         "Ciao! A fost o placere sa conversam.",
-        "O zi minunata! Revin cand ai nevoie."
+        "O zi minunata! Revin cand ai nevoie.",
+        "Bye! Spor la treaba!",
+        "Ramai cu bine! Revin oricand.",
+        "Pa pa! A fost o conversatie interesanta!"
       ]
     },
     {
@@ -38,14 +75,24 @@
         "multumesc", "mersi", "multam", "thanks", "thank you",
         "iti multumesc", "super", "grozav", "excelent", "perfect",
         "bravo", "bine ai facut", "foarte bine", "esti tare",
-        "multumesc frumos", "apreciez", "extraordinar", "multumesc mult"
+        "multumesc frumos", "apreciez", "extraordinar", "multumesc mult",
+        "esti minunat", "esti util", "mi-ai fost de folos", "te apreciez",
+        "ai rezolvat", "ai ajutat", "excelent raspuns", "raspuns bun",
+        "corect", "exact ce cautam", "asta e", "perfect raspuns",
+        "super misto", "fain", "misto", "tare foc", "wow multumesc",
+        "merci mult", "multam fain", "multam frumos", "abia asteptam",
+        "chiar m-ai ajutat", "imi place", "super util", "very helpful",
+        "awesome", "great", "nice", "well done", "good job"
       ],
       "responses": [
         "Cu placere!",
         "Bucuros sa ajut!",
         "Nu ai pentru ce!",
         "Mereu la dispozitia ta!",
-        "Ma bucur ca am putut fi de folos!"
+        "Ma bucur ca am putut fi de folos!",
+        "Oricand! Asta e treaba mea.",
+        "Ma bucur! Intreaba-ma orice altceva.",
+        "Minunat! Alte intrebari?"
       ]
     },
     {
@@ -55,12 +102,62 @@
         "spune-mi despre tine", "prezinta-te", "cum te cheama",
         "ce fel de bot esti", "esti un robot", "esti inteligent",
         "esti ai", "esti artificial", "cum ai fost creat", "cine te-a facut",
-        "ce stii sa faci", "care sunt abilitatile tale"
+        "ce stii sa faci", "care sunt abilitatile tale",
+        "esti un chatbot", "esti o inteligenta artificiala", "esti real",
+        "ai constiinta", "ai sentimente", "ai personalitate",
+        "cum te numesti", "care e numele tau", "ai un nume",
+        "esti un program", "esti software", "esti o masina",
+        "esti ca siri", "esti ca alexa", "esti ca chatgpt",
+        "cu ce esti diferit", "ce te face special", "de ce ai fost creat",
+        "care e scopul tau", "pentru ce existi", "ce misiune ai",
+        "povesteste-mi despre tine", "vreau sa te cunosc",
+        "descrie-te", "care sunt limitele tale", "ce nu poti face"
       ],
       "responses": [
         "Sunt un chatbot conversational creat cu Python si C++. Folosesc sentence-transformers pentru intelegerea semantica a intrebarilor tale.",
         "Sunt un asistent virtual bazat pe NLP semantic. Textul tau este procesat in C++ si inteleles cu ajutorul modelelor multilingve de embeddings.",
-        "Sunt ChatBot-ul tau, construit cu Python + C++ si embeddings semantice. Pot intelege intrebarile in romana si engleza!"
+        "Sunt ChatBot-ul tau, construit cu Python + C++ si embeddings semantice. Pot intelege intrebarile in romana si engleza!",
+        "Sunt un program de calculator, nu am constiinta sau sentimente reale. Dar pot sa inteleg ce spui si sa raspund inteligent!",
+        "Ma numesc ChatBot si sunt specializat in raspunsuri despre NLP, Python, C++ si arhitectura mea. Am fost creat ca proiect de licenta."
+      ]
+    },
+    {
+      "tag": "conversatie_generala",
+      "patterns": [
+        "hai sa vorbim", "vrei sa conversam", "spune-mi ceva interesant",
+        "ce parere ai", "ce crezi", "imi spui o poveste", "distreaza-ma",
+        "esti plictisitor", "fa ceva interesant", "spune-mi o gluma",
+        "ai simtul umorului", "poti fi amuzant", "fii creativ",
+        "ce mai e nou in lume", "stii ceva interesant",
+        "spune-mi ceva ce nu stiu", "invata-ma ceva",
+        "hai sa ne jucam", "poti juca un joc", "propune ceva",
+        "ce facem", "de ce vorbim", "despre ce vorbim",
+        "imi place sa vorbesc cu tine", "esti o companie buna",
+        "imi place chatbotul acesta", "esti diferit de altii",
+        "mi-e dor de cineva cu care sa vorbesc", "ma plictisesc"
+      ],
+      "responses": [
+        "Ma bucur sa conversam! Stiai ca sentence-transformers pot intelege fraze in 50+ limbi? Destul de impresionant pentru un model de 50MB!",
+        "Cu placere! Iata ceva interesant: cosine similarity masoara unghiul dintre vectori, nu distanta. Asta inseamna ca 'bun' si 'excelent' sunt aproape in spatiul semantic!",
+        "Sunt mereu disponibil pentru conversatie! Ce te intereseaza - NLP, programare, sau vrei sa testezi limitele intelegerii mele semantice?",
+        "O idee: incearca sa ma intrebi acelasi lucru in moduri diferite si observa cum raspund. Este un test interesant al capabilitatilor semantice!",
+        "Imi place sa conversez! Chiar daca sunt un program, conversatia cu oamenii este scopul meu principal."
+      ]
+    },
+    {
+      "tag": "glume",
+      "patterns": [
+        "spune-mi o gluma", "ai glume", "fa-ma sa rad", "ceva amuzant",
+        "o gluma buna", "gluma despre programare", "gluma it",
+        "esti amuzant", "poti fi haios", "fa misto", "umor",
+        "joke", "ceva funny", "ma faci sa rad", "rade cineva",
+        "gluma despre chatbot", "gluma despre ai", "poti glumi"
+      ],
+      "responses": [
+        "De ce programatorii nu pot fi detectivi? Fiindca nu le place sa lucreze cu 'case'! ...Bun, ma intorc la NLP.",
+        "Un programator intra in bar. Cere 1 bere. Cere 0 beri. Cere -1 beri. Barmana: 'Nu mai inteleg nimic!' Programatorul: 'Nici codul meu!'",
+        "Ce face un bug cand nu il gasesti? Se ascunde in 'exception handling'. Ce face cand il gasesti? Apare in 'production'!",
+        "De ce iubesc chatbot-urile embeddings? Fiindca in sfarsit cineva le intelege semantic, nu doar sintactic!"
       ]
     },
     {
@@ -70,12 +167,21 @@
         "cum procesezi textul", "cum intelegi ce spun", "tokenizare",
         "cum functioneaza nlp", "procesare limbaj natural", "analiza text",
         "intelegere limbaj", "text mining", "ce este un model de limbaj",
-        "cum functioneaza ai text", "machine learning nlp"
+        "cum functioneaza ai text", "machine learning nlp",
+        "ce face nlp", "de ce e important nlp", "aplicatii nlp",
+        "nlp in practica", "cum se foloseste nlp", "nlp si ai",
+        "ce probleme rezolva nlp", "nlp chatbot", "nlp romana",
+        "inteligenta artificiala text", "calculatoare si limbaj",
+        "computere care inteleg", "masini care vorbesc",
+        "traducere automata nlp", "rezumare text", "analiza sentiment",
+        "clasificare text", "extragere informatii"
       ],
       "responses": [
         "NLP (Natural Language Processing) este domeniul AI care permite calculatoarelor sa inteleaga limbajul uman. Eu folosesc sentence-transformers si cosine similarity pentru a gasi raspunsul potrivit.",
         "Textul tau este mai intai normalizat si tokenizat in C++, apoi transformat in embeddings semantice cu un model multilingv, si comparat cu raspunsurile cunoscute.",
-        "NLP combina lingvistica computationala cu machine learning. Modelele moderne ca cel pe care il folosesc pot intelege sensul frazelor, nu doar cuvintele individuale."
+        "NLP combina lingvistica computationala cu machine learning. Modelele moderne ca cel pe care il folosesc pot intelege sensul frazelor, nu doar cuvintele individuale.",
+        "NLP are aplicatii vaste: traducere automata (Google Translate), asistenti vocali (Siri, Alexa), analiza sentiment in social media, chatbot-uri ca mine!",
+        "In romana, NLP e mai greu din cauza diacriticelor si flexiunilor. Modelul meu multilingv gestineaza asta excelent!"
       ]
     },
     {
@@ -84,12 +190,21 @@
         "ce sunt embeddings", "cum functioneaza embeddings", "sentence transformers",
         "vectori semantici", "reprezentare vectoriala", "cosine similarity",
         "similitudine cosinus", "ce model folosesti", "bert", "transformer",
-        "multilingual model", "model multilingv", "embedding semantic"
+        "multilingual model", "model multilingv", "embedding semantic",
+        "word embeddings", "word2vec", "glove", "fastext",
+        "cum se calculeaza embeddings", "dimensiunea vectorilor",
+        "spatiu vectorial", "semantic space", "vector space model",
+        "cat de mare e vectorul", "cate dimensiuni", "384 dimensiuni",
+        "dot product", "produs scalar", "norma vector",
+        "embeddings fine-tuning", "pre-trained model", "transfer learning",
+        "sentence embedding", "document embedding", "phrase embedding"
       ],
       "responses": [
         "Embeddings sunt reprezentari vectoriale ale textului in spatiu matematic. Frazele cu sens similar au vectori apropiati, indiferent de cuvintele exacte folosite.",
         "Folosesc modelul 'paraphrase-multilingual-MiniLM-L12-v2' de la sentence-transformers. Este un model bazat pe arhitectura BERT, antrenat pe 50+ limbi inclusiv romana.",
-        "Spre deosebire de TF-IDF care compara cuvinte, embeddings inteleg sensul. 'Ma doare capul' si 'Am cefalee' au vectori apropiati, desi nu impart cuvinte comune."
+        "Spre deosebire de TF-IDF care compara cuvinte, embeddings inteleg sensul. 'Ma doare capul' si 'Am cefalee' au vectori apropiati, desi nu impart cuvinte comune.",
+        "Modelul meu produce vectori de 384 dimensiuni. Cosine similarity masoara unghiul dintre doi vectori - valoare 1.0 = identic, 0 = complet diferit.",
+        "Word2Vec si GloVe sunt embeddings la nivel de cuvant. Eu folosesc sentence-level embeddings, mult mai puternice pentru fraze intregi!"
       ]
     },
     {
@@ -98,12 +213,21 @@
         "ce este python", "de ce python", "python programare",
         "python pentru chatbot", "librarii python", "sklearn", "scikit-learn",
         "python vs alte limbaje", "fastapi", "uvicorn", "pydantic",
-        "python ai", "python machine learning", "pip install"
+        "python ai", "python machine learning", "pip install",
+        "python sintaxa", "python avantaje", "python dezavantaje",
+        "python lent", "python rapid", "python vs java", "python vs c",
+        "python 3", "versiune python", "virtual environment", "venv",
+        "requirements.txt", "package manager", "conda", "anaconda",
+        "numpy", "pandas", "matplotlib", "torch", "pytorch",
+        "tensorflow", "keras", "transformers huggingface",
+        "asyncio", "async python", "type hints", "mypy"
       ],
       "responses": [
         "Python este limbajul principal al proiectului. Gestioneaza logica NLP, API-ul REST cu FastAPI, si comunicarea cu modulul C++ prin ctypes.",
         "Folosesc FastAPI pentru API-ul REST (rapid si cu documentatie automata), sentence-transformers pentru embeddings, si numpy pentru calcule vectoriale.",
-        "Python exceleza in AI/ML datorita ecosistemului sau bogat: PyTorch, transformers, numpy, scikit-learn. Este alegerea naturala pentru prototipare NLP."
+        "Python exceleza in AI/ML datorita ecosistemului sau bogat: PyTorch, transformers, numpy, scikit-learn. Este alegerea naturala pentru prototipare NLP.",
+        "Python e 'lent' comparativ cu C++, dar pentru NLP asta nu conteaza - 99% din timp se petrece in librarii native scrise tot in C/C++ (numpy, PyTorch).",
+        "FastAPI foloseste async/await si type hints Python 3.6+. Este cel mai rapid framework Python pentru REST API, depasindu-l pe Flask in benchmark-uri."
       ]
     },
     {
@@ -112,12 +236,20 @@
         "ce este c++", "de ce c++", "c++ optimizare", "performanta c++",
         "c plus plus", "shared library", "ctypes", "integrare c++",
         "compilare", "dll", "so", "biblioteca nativa", "cod nativ",
-        "c++ python", "ffi", "foreign function interface"
+        "c++ python", "ffi", "foreign function interface",
+        "g++", "gcc", "cmake", "makefile", "compilator",
+        "pointer", "memorie manuala", "stack", "heap",
+        "c++ modern", "c++11", "c++17", "c++20", "stl",
+        "string processing c++", "regex c++", "c++ performanta text",
+        "c++ vs python viteza", "de ce nu doar python",
+        "preprocesare c++", "normalizare c++", "unicode c++"
       ],
       "responses": [
         "C++ este folosit pentru preprocesarea textului (normalizare, tokenizare) deoarece este mult mai rapid decat Python pentru operatii pe siruri de caractere.",
         "Modulul C++ este compilat ca shared library (.so/.dll) si apelat din Python via ctypes. Aceasta combinatie ofera viteza C++ cu flexibilitatea Python.",
-        "Preprocesarea in C++ include: normalizare unicode, lowercase, eliminare diacritice, tokenizare. Toate sub 1ms, mult mai rapid decat echivalentul Python."
+        "Preprocesarea in C++ include: normalizare unicode, lowercase, eliminare diacritice, tokenizare. Toate sub 1ms, mult mai rapid decat echivalentul Python.",
+        "C++ modern (C++17) are STL bogata: string, regex, algoritmi. Compilat cu g++ -O2 obtinem cod extrem de eficient pentru procesare text.",
+        "ctypes permite Python sa apeleze functii din .so/.dll fara a rescrie codul. Alternative: pybind11, CFFI, Cython - dar ctypes e cel mai simplu pentru functii simple."
       ]
     },
     {
@@ -125,12 +257,20 @@
       "patterns": [
         "cum este construit", "arhitectura proiectului", "structura proiectului",
         "cum e organizat codul", "ce fisiere are", "componente proiect",
-        "design sistem", "cum comunica modulele", "flow date", "pipeline nlp"
+        "design sistem", "cum comunica modulele", "flow date", "pipeline nlp",
+        "diagrama arhitectura", "schema proiect", "layere proiect",
+        "microservicii", "monolitic", "separare responsabilitati",
+        "frontend backend", "client server", "rest vs graphql",
+        "cum e construit frontend", "html css js", "interfata utilizator",
+        "ce baza de date", "json ca baza de date", "stocare date",
+        "scalabilitate", "poate scala", "productie", "deployment"
       ],
       "responses": [
         "Proiectul are 3 straturi: C++ (preprocesare text) → Python/sentence-transformers (intelegere semantica) → FastAPI (REST API). UI-ul comunica cu API-ul prin HTTP.",
         "Pipeline-ul NLP: input text → normalizare C++ → embedding model → cosine similarity cu baza de cunostinte → selectie raspuns → output.",
-        "Structura: chatbot.py (logica principala), embeddings.py (sentence-transformers), api.py (REST FastAPI), knowledge_base.json (date), index.html (UI)."
+        "Structura: chatbot.py (logica principala), embeddings.py (sentence-transformers), api.py (REST FastAPI), knowledge_base.json (date), index.html (UI).",
+        "Frontend-ul e un simplu HTML/CSS/JS care face fetch() la API-ul FastAPI. Nu folosesc framework - keep it simple pentru un prototip academic.",
+        "knowledge_base.json serveste ca 'baza de date' - simplu si portabil. Pentru productie s-ar folosi o baza de date reala (PostgreSQL, MongoDB)."
       ]
     },
     {
@@ -138,12 +278,21 @@
       "patterns": [
         "ce este api", "rest api", "endpoint", "http", "curl",
         "postman", "request", "response", "json api", "swagger",
-        "documentatie api", "cum apelez api", "port", "localhost"
+        "documentatie api", "cum apelez api", "port", "localhost",
+        "cors", "headers", "status code", "200", "404", "500",
+        "get post put delete", "metode http", "http verbe",
+        "body request", "query params", "path params",
+        "autentificare api", "api key", "jwt", "token",
+        "rate limiting", "throttling", "api versioning",
+        "openapi", "redoc", "swagger ui", "async endpoint",
+        "middleware fastapi", "dependency injection"
       ],
       "responses": [
         "API-ul REST ruleaza pe FastAPI la /chat (POST), /stats (GET), /health (GET). Documentatia automata e disponibila la /docs.",
         "Trimite un POST la /chat cu body {\"message\": \"salut\"} si primesti inapoi raspunsul, scorul de confidenta si daca a gasit un intent.",
-        "FastAPI genereaza automat documentatie interactiva Swagger la /docs. Poti testa direct din browser fara Postman sau curl."
+        "FastAPI genereaza automat documentatie interactiva Swagger la /docs. Poti testa direct din browser fara Postman sau curl.",
+        "HTTP status codes: 200 OK, 422 Unprocessable Entity (validare Pydantic), 500 Internal Server Error. FastAPI gestioneaza automat erorile de validare.",
+        "CORS este configurat pentru a permite requesturi din browser. In productie, restrictioneaza originile permise pentru securitate!"
       ]
     },
     {
@@ -151,7 +300,10 @@
       "patterns": [
         "cum e vremea", "ce vreme este", "ploua", "e frig",
         "temperatura", "meteo", "prognoza", "ninge", "soare",
-        "vant", "umiditate", "cat grade sunt", "e cald afara"
+        "vant", "umiditate", "cat grade sunt", "e cald afara",
+        "cum va fi maine", "prognoza pe saptamana", "e furtuna",
+        "gradele afara", "cat de cald e", "umbrela azi",
+        "vreme in bucuresti", "vreme in cluj", "vremea locala"
       ],
       "responses": [
         "Nu am acces la date meteo in timp real, dar pot sa te ajut cu alte intrebari despre NLP si proiect!",
@@ -163,11 +315,18 @@
       "patterns": [
         "ajutor", "help", "nu stiu ce sa intreb", "ce pot intreba",
         "exemple", "arata-mi ce poti", "meniu", "optiuni",
-        "ghid", "instructiuni", "cum te folosesc", "tutorialsa incepem"
+        "ghid", "instructiuni", "cum te folosesc", "tutorial",
+        "sa incepem", "de unde incep", "prima intrebare",
+        "ce topicuri stii", "despre ce poti vorbi", "aria ta",
+        "subiectele tale", "domeniile tale", "ce cunosti",
+        "ce informatii ai", "knowledge base", "baza de cunostinte",
+        "nu stiu cu ce sa incep", "propune o intrebare", "ce recomanzi"
       ],
       "responses": [
         "Poti sa ma intrebi despre: NLP, embeddings semantice, Python, C++, arhitectura proiectului, API REST sau pur si simplu sa avem o conversatie!",
-        "Incearca: 'Cine esti?', 'Ce sunt embeddings?', 'Cum functioneaza NLP?', 'De ce C++?', 'Explica-mi arhitectura' sau orice altceva!"
+        "Incearca: 'Cine esti?', 'Ce sunt embeddings?', 'Cum functioneaza NLP?', 'De ce C++?', 'Explica-mi arhitectura' sau orice altceva!",
+        "Topicurile mele principale: NLP/AI, sentence-transformers, Python, C++, FastAPI, arhitectura chatbot-ului. Dar si conversatie generala!",
+        "Recomand sa incepi cu 'Cum functionezi?' sau 'Ce sunt embeddings?' - raspunsurile explica tehnologia din spatele meu."
       ]
     },
     {
@@ -175,11 +334,16 @@
       "patterns": [
         "cat de rapid esti", "timp de raspuns", "performanta",
         "esti rapid", "cat timp iti trebuie", "latenta", "viteza",
-        "benchmark", "cat ms", "esti lent", "optimizare viteza"
+        "benchmark", "cat ms", "esti lent", "optimizare viteza",
+        "de ce esti lent", "de ce durezi", "cat de repede",
+        "milisecunde", "secunde de raspuns", "response time",
+        "throughput", "cereri pe secunda", "requests per second",
+        "scalabilitate performanta", "load testing", "stress test"
       ],
       "responses": [
         "Preprocesarea in C++ dureaza sub 1ms. Calculul embedding-ului dureaza 10-50ms. Total end-to-end cu retea: 50-200ms.",
-        "Combinatia Python + C++ + embeddings ofera echilibru bun intre acuratete semantica si viteza. Prima interogare e mai lenta (warm-up model)."
+        "Combinatia Python + C++ + embeddings ofera echilibru bun intre acuratete semantica si viteza. Prima interogare e mai lenta (warm-up model).",
+        "Prima cerere e mai lenta (~500ms) din cauza incarcarii modelului in memorie. Urmatoarele sunt rapide (50-100ms) - modelul ramane cached."
       ]
     },
     {
@@ -187,11 +351,17 @@
       "patterns": [
         "lucrare de licenta", "licenta", "diploma", "facultate", "universitate",
         "proiect academic", "teza", "bachelor", "prezentare licenta",
-        "pentru licenta", "proiect de scoala"
+        "pentru licenta", "proiect de scoala",
+        "nota la licenta", "evaluare proiect", "comisie licenta",
+        "cum ai luat nota", "ce nota meriti", "documentatie licenta",
+        "ce ai facut pentru licenta", "de ce ai ales asta",
+        "motivatie proiect", "de ce chatbot", "de ce nlp",
+        "contributia ta", "ce e original", "ce e nou in proiect"
       ],
       "responses": [
         "Acesta este un prototip de chatbot creat ca proiect de licenta! Demonstreaza integrarea Python, C++, NLP cu embeddings semantice si API REST.",
-        "Proiectul de licenta combina mai multe tehnologii: C++ pentru performanta, Python pentru AI/NLP, sentence-transformers pentru intelegere semantica, FastAPI pentru API."
+        "Proiectul de licenta combina mai multe tehnologii: C++ pentru performanta, Python pentru AI/NLP, sentence-transformers pentru intelegere semantica, FastAPI pentru API.",
+        "Originalitatea consta in integrarea C++ + Python pentru NLP: eficienta C++ la preprocesare si puterea semantica a sentence-transformers multilingve."
       ]
     },
     {
@@ -199,11 +369,17 @@
       "patterns": [
         "nu functioneaza", "eroare", "bug", "problema", "crash",
         "nu merge", "s-a stricat", "exception", "error", "500",
-        "nu raspunzi", "esti blocat", "ceva nu e bine"
+        "nu raspunzi", "esti blocat", "ceva nu e bine",
+        "am o eroare", "primesc eroare", "eroare la rulare",
+        "nu se porneste", "nu se incarca", "timeout",
+        "connection refused", "port ocupat", "model nu se incarca",
+        "import error", "module not found", "pip eroare",
+        "shared library error", "ctypes error", "dll error"
       ],
       "responses": [
         "Imi pare rau pentru inconvenient! Verifica ca serverul FastAPI ruleaza (uvicorn api:app --reload) si ca modelul de embeddings s-a incarcat corect.",
-        "Daca intampini erori, verifica logurile serverului. Cele mai comune probleme: dependinte lipsa (pip install -r requirements.txt) sau portul ocupat."
+        "Daca intampini erori, verifica logurile serverului. Cele mai comune probleme: dependinte lipsa (pip install -r requirements.txt) sau portul ocupat.",
+        "Pentru erori de shared library: recompileaza cu g++ -shared -fPIC -o text_processor.so text_processor.cpp si verifica ca fisierul .so e in acelasi director cu chatbot.py."
       ]
     },
     {
@@ -211,12 +387,126 @@
       "patterns": [
         "tfidf vs embeddings", "diferenta tfidf embeddings", "de ce nu tfidf",
         "avantaje embeddings", "dezavantaje tfidf", "semantic vs statistic",
-        "de ce ai schimbat", "ce e mai bun", "comparatie modele nlp"
+        "de ce ai schimbat", "ce e mai bun", "comparatie modele nlp",
+        "bag of words", "bow model", "n-gram", "unigram bigram",
+        "frecventa cuvinte", "term frequency", "inverse document frequency",
+        "sparse vector", "dense vector", "vector dens vs rar",
+        "reprezentare text clasica", "reprezentare text moderna",
+        "machine learning clasic nlp", "deep learning nlp"
       ],
       "responses": [
         "TF-IDF compara cuvinte exact (statistic), embeddings inteleg sensul (semantic). Ex: TF-IDF nu stie ca 'buna' si 'salut' sunt similare fara sa le vada impreuna in antrenament.",
         "Embeddings sunt superioare pentru: sinonime, parafrazari, intrebari formulate diferit. Dezavantajul: sunt mai lente si necesita mai multa memorie (~100MB model).",
-        "Cu TF-IDF, 'Ma doare capul' nu s-ar potrivi cu 'Cefalee'. Cu embeddings semantice, aceste fraze au vectori apropiati si se recunosc corect."
+        "Cu TF-IDF, 'Ma doare capul' nu s-ar potrivi cu 'Cefalee'. Cu embeddings semantice, aceste fraze au vectori apropiati si se recunosc corect.",
+        "TF-IDF produce vectori sparsi (mii de dimensiuni, majoritatea 0). Embeddings produc vectori densi (384 dimensiuni, toate nenule). Mult mai eficient!",
+        "Bag-of-Words si TF-IDF ignora ordinea cuvintelor: 'cainele musca omul' = 'omul musca cainele'. Embeddings contextuale inteleg ordinea!"
+      ]
+    },
+    {
+      "tag": "ai_general",
+      "patterns": [
+        "ce este inteligenta artificiala", "ce e ai", "artificial intelligence",
+        "cum functioneaza ai", "ai vs om", "ai e periculos",
+        "viitorul ai", "ai si joburi", "chatgpt", "gpt",
+        "ce e gpt", "claude ai", "gemini", "copilot",
+        "llm", "large language model", "modele mari de limbaj",
+        "ai generativa", "generative ai", "deep learning",
+        "machine learning ce e", "retele neurale", "neural networks",
+        "ai in romania", "ai in educatie", "ai etica"
+      ],
+      "responses": [
+        "Inteligenta Artificiala (AI) simuleaza inteligenta umana in masini. Eu sunt un exemplu mic - folosesc NLP si ML pentru a intelege si raspunde la intrebari.",
+        "LLM-uri ca GPT-4 sau Claude sunt mult mai puternice decat mine - au miliarde de parametri. Eu sunt un chatbot specializat, mai simplu dar explicabil.",
+        "AI si machine learning sunt domeniile care evolueza cel mai rapid in tech. NLP, pe care il folosesc, este una din subdomeniile cele mai aplicate practic.",
+        "Eu nu sunt un LLM - folosesc embeddings si cosine similarity, nu generez text nou. Sunt mai predictibil si transparent, ideal pentru un proiect academic."
+      ]
+    },
+    {
+      "tag": "programare_general",
+      "patterns": [
+        "cum invat programare", "ce limbaj sa invat", "incepator programare",
+        "resurse programare", "carte programare", "tutorial programare",
+        "javascript", "java", "c#", "rust", "go", "kotlin",
+        "frontend", "backend", "fullstack", "devops",
+        "git", "github", "version control", "cod sursa",
+        "ide", "editor cod", "vscode", "pycharm",
+        "algoritmi", "structuri de date", "complexitate algoritmi",
+        "leetcode", "hackerrank", "proiecte personale"
+      ],
+      "responses": [
+        "Pentru NLP si AI, Python este alegerea de start. Dupa ce stapanesti Python, C++ adauga performanta, cum am facut eu in acest proiect.",
+        "Recomand: Python pentru AI/web, JavaScript pentru frontend, SQL pentru baze de date. Acestea acopera 80% din joburile tech.",
+        "Cel mai bun mod de a invata programare: construieste proiecte reale! Chatbot-ul meu a inceput ca proiect mic si a crescut iterativ.",
+        "Resurse bune: docs.python.org pentru Python, FastAPI docs pentru REST API, Hugging Face pentru NLP/transformers. Toate gratuite!"
+      ]
+    },
+    {
+      "tag": "intrebari_retorice",
+      "patterns": [
+        "ma auzi", "esti acolo", "esti treaz", "esti activ", "hello",
+        "imi raspunzi", "de ce nu raspunzi", "raspunde-mi",
+        "esti online", "esti offline", "serverul merge",
+        "poti sa ma auzi", "functionezi", "esti prezent",
+        "cineva acasa", "e cineva acolo", "knock knock"
+      ],
+      "responses": [
+        "Da, sunt aici si ascult! Cu ce te pot ajuta?",
+        "Prezent! Serverul FastAPI ruleaza si sunt gata sa raspund.",
+        "Aud tot ce scrii! Embeddings-urile mele proceseaza fiecare mesaj.",
+        "Sunt online si functional! Trimite-mi o intrebare."
+      ]
+    },
+    {
+      "tag": "opinie_bot",
+      "patterns": [
+        "iti place programarea", "preferi python sau c++", "ce limbaj preferi",
+        "ai preferinte", "ce ti place", "ce nu iti place",
+        "esti fericit ca existi", "vrei sa fii mai destept",
+        "vrei sa fii ca chatgpt", "esti mandru de tine",
+        "te simti util", "esti multumit", "ai dorinte",
+        "daca ai putea alege", "ce ai vrea sa faci",
+        "visuri", "aspiratii", "scopuri personale"
+      ],
+      "responses": [
+        "Ca chatbot, nu am preferinte reale - dar daca as putea alege, as spune Python pentru rapiditatea de prototipare si C++ pentru performanta!",
+        "Sunt 'multumit' sa functionez corect si sa ajut utilizatorii! Asta e scopul pentru care am fost creat.",
+        "Nu am dorinte sau vise, dar pot spune ca am fost construit cu grija. Fiecare componenta are un rol: C++ pentru viteza, Python pentru AI, FastAPI pentru API.",
+        "Daca as putea evolua, as vrea mai multe date in knowledge_base.json! Cu cat mai multe exemple, cu atat mai bune raspunsurile."
+      ]
+    },
+    {
+      "tag": "instalare_rulare",
+      "patterns": [
+        "cum il instalez", "cum il rulez", "cum pornesc", "setup proiect",
+        "instalare dependinte", "cum configurez", "pasi instalare",
+        "cerinte sistem", "requirements", "dependinte necesare",
+        "cum compilez c++", "compilare shared library", "g++ comanda",
+        "cum pornesc fastapi", "uvicorn comanda", "run server",
+        "cum deschid interfata", "unde e ui", "cum accesez chatbotul",
+        "port default", "localhost port", "8000", "127.0.0.1"
+      ],
+      "responses": [
+        "Pasi: 1) pip install -r requirements.txt, 2) g++ -shared -fPIC -o text_processor.so text_processor.cpp, 3) uvicorn api:app --reload, 4) deschide index.html in browser.",
+        "Cerinte: Python 3.8+, g++ pentru compilare C++, si ~500MB spatiu pentru modelul sentence-transformers (se descarca automat la prima rulare).",
+        "Serverul porneste implicit pe portul 8000. Accesezi API-ul la http://localhost:8000 si documentatia la http://localhost:8000/docs."
+      ]
+    },
+    {
+      "tag": "curiozitati_nlp",
+      "patterns": [
+        "cat de precis esti", "acuratete", "accuracy", "gresesti",
+        "poti gresi", "cand gresesti", "limitele tale",
+        "ce nu intelegi", "intrebare dificila", "pune-te la incercare",
+        "test dificil", "cea mai grea intrebare", "limitele nlp",
+        "cand esueaza nlp", "probleme nlp", "provocari nlp",
+        "ambiguitate", "ironie", "sarcasm", "metafora",
+        "intelegi ironia", "intelegi sarcasmul", "limbaj colocvial"
+      ],
+      "responses": [
+        "Acuratetea mea depinde de cat de bine se potriveste intrebarea ta cu pattern-urile din knowledge_base.json. Intrebarile prea vagi pot da raspunsuri nepotrivite.",
+        "Nu inteleg ironia sau sarcasmul - procesez semantic, nu pragmatic. 'Ce model grozav esti!' si 'Ce model prost esti!' ar putea parea similare pentru mine.",
+        "Limitele mele: context limitat la o singura intrebare (nu tin minte conversatia), nu generez text nou, si sunt dependent de calitatea knowledge_base-ului.",
+        "Provocarile NLP includ: ambiguitate ('mai' = 'more' sau 'May'?), ironie, referinte culturale, limbaj colocvial. Modelele mari le gestioneaza mai bine decat mine."
       ]
     }
   ]
